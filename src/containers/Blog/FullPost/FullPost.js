@@ -41,10 +41,8 @@ class FullPost extends Component {
                         <button className="Delete" onClick={this.deletePostHandler}>Delete</button>
                     </div>
                 </div>
-
             );
         }
-
         return post;
     }
 }
